@@ -1,0 +1,245 @@
+
+body {
+    display: flex;
+    flex-flow:column;
+    font-family: Open Sans;
+    background-color: #2f3644;
+}
+
+p{
+    color: black;
+    font-size: 16px;
+    font-weight:bold;
+    margin: 5px 0px;
+}
+label{
+    color: black;
+    font-size: 12px;
+    font-weight:bold;
+    margin-left: -10px;
+}
+
+
+h1{
+    color:white; 
+    font-weight:bold;
+    margin-top: 150px;
+}
+h4{
+    font-weight:bolder;
+    margin:10px 0px;
+}
+
+header{
+    background-color: #2f3644;
+    height: 30px;
+    color: white;
+    display: flex;
+    padding: 25px;
+    margin: -8px -8px 0px -8px;
+    font-family: Lato;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+    border-bottom: 10px solid white;
+    z-index: 2;
+}
+
+#logo {
+    flex-grow: 1;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 150px;
+    background: none;
+    border: none;
+    color: white;
+}
+#blank{
+    flex-grow: 10;
+}
+nav{
+    display: flex;
+    flex-grow: 3;
+    font-weight:600;
+    margin-right: 150px;
+}
+.nav_item{
+    flex-grow: 1;
+    height: 25px;
+    cursor: pointer;
+    margin: 0px 10px;
+    text-align: center;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav_item:hover{
+    color:#c9c9c9;
+}
+
+
+main{
+    margin: 0px -8px 200px -8px;
+    display: flex;
+    flex-flow:column;
+    border-bottom: 10px solid white;
+    z-index: 1;
+}
+
+.container{
+    background-color: #fdc000;
+    min-height: 600px;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-flow:column;
+    align-items: center;
+    box-shadow: inset 0px -3px 5px rgba(0, 0, 0, 0.4);
+    font-size: 1.5em;
+}
+
+.authorization_block{
+    display: flex;
+    background-color: #fffaeb;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4),  inset -1px -1px 3px rgba(0, 0, 0, 0.4), inset 3px 3px 10px rgba(250, 250, 250, 0.6);
+    width: 400px;
+    min-height: 300px;
+    margin: 50px 0px;
+    padding: 0px 10px 50px 10px;
+    align-items: center;
+    flex-flow:column;
+}
+.input_text{
+    flex-grow: 1;
+}
+
+.content_block{
+    background-color: #fffaeb;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4),  inset -1px -1px 3px rgba(0, 0, 0, 0.4), inset 3px 3px 10px rgba(250, 250, 250, 0.6);
+    width: 600px;
+    min-height: 500px;
+    margin: 50px 100px;
+    padding: 50px;
+    text-align: left;
+}
+
+
+
+.text_block{
+    text-align: left;
+}
+
+
+main input[type=submit]{
+    min-width:100px;
+    height:40px;
+    background-color: #2f3644;
+    color:white;
+    font-family: Open Sans;
+    font-weight: bold;
+    margin: 15px 0px;
+}
+
+main input[type=submit]:hover{
+    border: 3px solid #fcac45;
+    border-radius: 5px;
+    color:#f4d881;
+}
+
+main input[type=submit]:active{
+    border: 3px solid #fcac45;
+    border-radius: 5px;
+    color:white;
+    background-color: #c9c9c9;
+}
+
+input[type=text]{
+    width:180px;
+    height:20px;
+    border: 2px solid #2f3644;
+    font-family: Open Sans;
+}
+
+input[type=password]{
+    width:180px;
+    height:20px;
+    border: 2px solid #2f3644;
+    font-family: Open Sans;
+}
+
+.authorization_block input{
+    margin: 15px;
+}
+
+
+
+.information_block{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 1px solid #fcac45;
+}
+
+.description_field input[type=text]{
+    height: 40px;
+    width: 300px;
+}
+
+
+.order_block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fcac45;
+    padding:10px;
+    height: 100px;
+}
+
+
+.order_content_block{
+    border-bottom: 1px solid #fcac45;
+    padding:10px;
+}
+
+.order_row_block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 100px;
+}
+
+.row {
+    border-top: 1px solid #2f3644;
+    min-height: 50px;
+}
+
+
+#start_button{
+    width:220px; 
+    height:60px; 
+    font-size:20px;
+    margin-top: 100px;
+}
+
+#sub_text{
+    color:#2f3644;
+}
+
+
+#return_button{
+    background: none;
+    border: none;
+    color: #fcac45;
+    margin: 10px 0px -100px -300px;
+}
+
+#return_button:hover{
+    color:#f4d881;
+}
+
+.order_text_block{
+    width:250px;
+}
+
+
